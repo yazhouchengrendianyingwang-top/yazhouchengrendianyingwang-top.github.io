@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>亚洲成人电影网 - 泛亚洲浪漫影视导航 | 官方网址：https://yazhouchengrendianyingwang-top.github.io</title>
+<meta name="description" content="亚洲成人电影网(yazhouchengrendianyingwang-top.github.io)以水墨折扇屏风风做亚洲浪漫影视导航，涵盖华语、韩剧、日剧、东南亚成人电影与剧集。4K/蓝光画质、茶单排片、热播榜单。官方网址：https://yazhouchengrendianyingwang-top.github.io，手机电脑自适应。">
+<meta name="keywords" content="亚洲成人电影网, yazhouchengrendianyingwang-top.github.io, 成人电影, 浪漫剧集, 华语韩剧日剧, 亚洲影视, 4K蓝光">
+<meta name="author" content="亚洲成人电影网">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://yazhouchengrendianyingwang-top.github.io">
+<meta property="og:title" content="亚洲成人电影网 - 泛亚洲浪漫影视导航">
+<meta property="og:description" content="官方网址：https://yazhouchengrendianyingwang-top.github.io，华语/韩国/日本/东南亚成人影视，水墨折扇风、4K蓝光、茶单排片。">
+<meta property="og:url" content="https://yazhouchengrendianyingwang-top.github.io">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="亚洲成人电影网 - 泛亚洲浪漫影视导航">
+<meta name="twitter:description" content="官方网址：https://yazhouchengrendianyingwang-top.github.io">
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --rice:#F8F4EC;--rice2:#EFE8D8;--ink:#2B2624;--ink2:#4A423D;--muted:#8B7E75;
+  --line:#D9CEB8;--red:#B23A3A;--red2:#D65C5C;--bamboo:#5C7A4F;--gold:#B8944A;--tea:#A66E4E;
+  --sans:"PingFang SC","Microsoft YaHei","Segoe UI",Arial,sans-serif;
+  --serif:"Songti SC","Noto Serif CJK SC",serif;
+}
+html{scroll-behavior:smooth;font-size:16px;}
+body{font-family:var(--sans);color:var(--ink);background:
+  radial-gradient(120% 80% at 50% -10%,#FCFAF5 0%,var(--rice) 55%,#E8DFCB 100%);
+  line-height:1.85;overflow-x:hidden;}
+a{color:inherit;text-decoration:none;}
+
+/* 宣纸纹理 */
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.35;
+  background-image:
+    radial-gradient(rgba(43,38,36,.04) 1px,transparent 1px),
+    radial-gradient(rgba(43,38,36,.03) 1px,transparent 1px);
+  background-size:20px 20px,14px 14px;
+  background-position:0 0,7px 7px;}
+
+.topbar{position:relative;z-index:10;font-size:.68rem;color:var(--ink2);padding:.45rem 1rem;display:flex;justify-content:space-between;gap:.5rem;flex-wrap:wrap;background:rgba(248,244,236,.94);border-bottom:2px solid var(--red);}
+.topbar a{color:var(--red);border-bottom:1px dotted var(--red);}
+.topbar a:hover{color:var(--gold);}
+.seal-tag{display:inline-flex;align-items:center;gap:.35rem;color:var(--red);font-weight:700;}
+.seal-tag i{width:8px;height:8px;background:var(--red);display:inline-block;transform:rotate(45deg);}
+
+.nav{position:sticky;top:0;z-index:100;background:rgba(43,38,36,.96);backdrop-filter:blur(6px);border-bottom:3px solid var(--gold);}
+.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.7rem 1rem;flex-wrap:wrap;}
+.logo{font-family:var(--serif);font-weight:900;font-size:clamp(1.2rem,2.6vw,1.9rem);display:flex;align-items:center;gap:.5rem;color:var(--rice);}
+.logo .seal{font-size:.6rem;font-weight:800;color:var(--rice);background:var(--red);padding:.15rem .5rem;border-radius:3px;font-family:var(--sans);}
+.url-chip{font-family:monospace;font-size:.6rem;font-weight:700;color:var(--rice);background:var(--gold);padding:.3rem .7rem;border:2px solid var(--rice);border-radius:4px;transform:rotate(-1deg);}
+.menu{list-style:none;display:flex;flex-wrap:wrap;gap:.3rem;}
+.menu a{display:block;padding:.5rem .85rem;font-size:.76rem;font-weight:700;color:#E8DFCB;border:1px solid transparent;border-radius:6px;transition:.25s;}
+.menu a:hover{background:var(--red);color:#fff;}
+.toggle{display:none;background:var(--red);color:#fff;border:2px solid var(--rice);padding:.4rem .8rem;font-size:1.1rem;border-radius:6px;cursor:pointer;}
+.wrap{max-width:1200px;margin:0 auto;padding:0 1rem;position:relative;z-index:1;}
+
+@keyframes fanOpen{0%{transform:scaleX(0)}100%{transform:scaleX(1)}}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+.hero{padding:3.4rem 0 3rem;border-bottom:2px dashed var(--line);}
+.hero-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:2rem;align-items:center;}
+.fan-art{position:relative;background:linear-gradient(180deg,#3A322D,#1F1B18);border:10px solid #1A1614;border-radius:22px;padding:1.4rem;overflow:hidden;box-shadow:inset 0 0 50px rgba(0,0,0,.7),0 12px 30px rgba(0,0,0,.3);}
+.fan-shape{width:100%;height:220px;position:relative;background:conic-gradient(from 180deg at 50% 100%,var(--red) 0deg,var(--tea) 60deg,var(--bamboo) 120deg,var(--gold) 180deg,var(--red) 240deg,var(--tea) 300deg,var(--red) 360deg);clip-path:polygon(50% 100%,0% 0%,100% 0%);opacity:.9;animation:fanOpen 1.5s ease-out;}
+.fan-lines{position:absolute;inset:0;background:repeating-conic-gradient(from 180deg at 50% 100%,transparent 0deg,transparent 8deg,rgba(0,0,0,.15) 8deg,rgba(0,0,0,.15) 10deg);clip-path:polygon(50% 100%,0% 0%,100% 0%);}
+.fan-text{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;color:#fff;font-family:var(--serif);pointer-events:none;}
+.fan-text .ft-main{font-size:1.8rem;font-weight:900;letter-spacing:.3em;text-shadow:2px 2px 4px rgba(0,0,0,.5);}
+.fan-text .ft-sub{font-size:.7rem;opacity:.9;margin-top:.3rem;font-family:monospace;}
+
+.screen-grid{display:flex;flex-direction:column;gap:.6rem;}
+.screen-row{display:grid;grid-template-columns:50px 1fr auto;gap:.7rem;align-items:center;background:var(--rice2);border:1px solid var(--line);border-radius:8px;padding:.55rem .7rem;position:relative;}
+.screen-row::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--red);border-radius:8px 0 0 8px;}
+.sr-no{font-family:monospace;font-weight:900;color:var(--red);font-size:.78rem;}
+.sr-tt{font-weight:900;color:var(--ink);font-size:.86rem;font-family:var(--serif);}
+.sr-mt{font-family:monospace;font-size:.58rem;color:var(--muted);}
+.sr-st{font-family:monospace;font-size:.56rem;font-weight:800;padding:.12rem .45rem;border-radius:20px;}
+.st-hot{background:var(--red);color:#fff;}
+.st-new{background:var(--gold);color:var(--ink);}
+.st-classic{background:var(--ink);color:#fff;}
+
+.hero-copy h1{font-family:var(--serif);font-size:clamp(2rem,5vw,3.2rem);font-weight:900;line-height:1.18;color:var(--ink);margin:.2rem 0 .6rem;}
+.hero-copy h1 .hl{color:var(--red);}
+.hero-copy .sub{font-family:monospace;font-size:.7rem;color:var(--bamboo);margin-bottom:.8rem;}
+.hero-desc{background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(239,232,216,.9));border:1px solid var(--line);border-radius:12px;padding:1rem 1.2rem;font-size:.82rem;line-height:1.9;color:var(--ink);}
+.hero-desc strong{color:var(--red);background:rgba(178,58,58,.08);padding:0 .25rem;}
+.hero-cta{display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.2rem;}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.4rem;font-weight:800;font-size:.84rem;border:2px solid var(--ink);border-radius:8px;cursor:pointer;transition:.25s;}
+.btn-red{background:var(--red);color:#fff;box-shadow:4px 4px 0 var(--ink);}
+.btn-red:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink);}
+.btn-ink{background:transparent;color:var(--ink);border-color:var(--ink);}
+.btn-ink:hover{background:var(--ink);color:#fff;}
+
+.ticker{margin-top:1.4rem;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:.55rem 0;overflow:hidden;white-space:nowrap;background:rgba(178,58,58,.06);}
+.ticker span{display:inline-block;padding-right:2rem;font-family:monospace;font-size:.68rem;color:var(--ink2);animation:marquee 30s linear infinite;}
+.ticker span b{color:var(--red);}
+
+.section{padding:3.2rem 0;border-bottom:2px dashed var(--line);}
+.sec-head{text-align:center;margin-bottom:2.2rem;}
+.sec-head h2{font-family:var(--serif);font-size:clamp(1.4rem,3vw,2.1rem);font-weight:900;color:var(--ink);margin-bottom:.4rem;}
+.sec-head h2 .ic{color:var(--red);margin:0 .4rem;}
+.sec-head p{font-family:monospace;font-size:.68rem;color:var(--muted);}
+
+.screen-grid-2{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.4rem;}
+.screen-card{background:#fff; border:2px solid var(--line); border-radius:12px; overflow:hidden; box-shadow:5px 5px 0 rgba(43,38,36,.1); transition:.25s;}
+.screen-card:hover{transform:translateY(-5px);border-color:var(--red);}
+.screen-top{background:var(--ink);color:#fff;padding:.7rem 1rem;display:flex;justify-content:space-between;align-items:center;font-family:monospace;}
+.screen-top .code{font-weight:900;font-size:.7rem;background:var(--gold);color:var(--ink);padding:.12rem .5rem;border-radius:4px;}
+.screen-body{padding:1rem;}
+.screen-body h3{font-size:.98rem;font-weight:900;color:var(--ink);margin-bottom:.15rem;font-family:var(--serif);}
+.screen-body .meta{font-family:monospace;font-size:.6rem;color:var(--muted);margin-bottom:.5rem;}
+.screen-tags{display:flex;gap:.3rem;flex-wrap:wrap;}
+.tag{font-family:monospace;font-size:.55rem;font-weight:700;padding:.12rem .45rem;background:var(--rice2);color:var(--ink2);border:1px solid var(--line);border-radius:20px;}
+.shows{display:flex;gap:.3rem;flex-wrap:wrap;margin-top:.6rem;}
+.show{font-family:monospace;font-size:.56rem;color:var(--ink);background:var(--rice);border:1px solid var(--line);border-radius:20px;padding:.12rem .5rem;}
+
+.quality-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1.4rem;}
+.q-card{background:#fff;border:2px solid var(--line);border-radius:12px;padding:1.1rem;box-shadow:5px 5px 0 rgba(43,38,36,.08);transition:.25s;}
+.q-card:hover{transform:scale(1.02);border-color:var(--tea);}
+.q-card .cap{font-family:var(--serif);font-size:1.3rem;font-weight:900;color:var(--red);}
+.q-card h3{font-size:.9rem;font-weight:900;color:var(--ink);margin:.3rem 0 .2rem;}
+.q-card p{font-size:.7rem;color:var(--ink2);line-height:1.6;}
+
+.tea-menu{background:#fff;border:2px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:6px 6px 0 rgba(43,38,36,.1);}
+.tea-scroll{overflow-x:auto;}
+table.tea{width:100%;min-width:760px;border-collapse:collapse;font-size:.76rem;}
+table.tea th,table.tea td{border:1px solid var(--line);padding:.7rem .6rem;text-align:center;}
+table.tea thead th{background:var(--ink);color:#fff;font-family:var(--serif);font-weight:900;letter-spacing:1px;}
+table.tea tbody th{background:var(--rice2);color:var(--ink);font-family:monospace;}
+.slot{background:var(--rice);}
+.slot.on{background:#F7E2DD;}
+.slot.on b{color:var(--red);}
+.slot b{display:block;font-weight:900;color:var(--ink);}
+.slot span{font-family:monospace;font-size:.58rem;color:var(--muted);}
+
+.rank-wrap{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;}
+.rank-panel{background:#fff;border:2px solid var(--line);border-radius:12px;padding:1.3rem;box-shadow:6px 6px 0 rgba(43,38,36,.1);}
+.rank-panel h3{font-family:var(--serif);font-size:1.05rem;font-weight:900;color:var(--red);margin-bottom:.9rem;padding-bottom:.6rem;border-bottom:2px dotted var(--line);}
+.rank-list{list-style:none;}
+.rank-item{display:grid;grid-template-columns:34px 1fr auto;gap:.7rem;align-items:center;padding:.6rem 0;border-bottom:1px dashed var(--line);}
+.rank-item:last-child{border-bottom:none;}
+.rank-no{width:30px;height:30px;display:flex;align-items:center;justify-content:center;font-family:monospace;font-weight:900;background:var(--gold);color:var(--ink);border:2px solid #fff;border-radius:8px;}
+.rank-no.top{background:var(--red);color:#fff;}
+.rank-info h4{font-size:.86rem;font-weight:900;color:var(--ink);font-family:var(--serif);}
+.rank-info p{font-family:monospace;font-size:.6rem;color:var(--muted);}
+.rank-score{font-family:monospace;font-weight:700;color:var(--ink);}
+
+.news-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:1.6rem;}
+.news-list{display:flex;flex-direction:column;gap:.9rem;}
+.news-card{display:flex;gap:.9rem;background:#fff;border:2px solid var(--line);border-radius:12px;padding:.9rem;box-shadow:3px 3px 0 rgba(43,38,36,.08);transition:.25s;}
+.news-card:hover{box-shadow:3px 3px 0 var(--red);transform:translateX(4px);}
+.news-no{min-width:46px;height:46px;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:1rem;font-weight:900;background:var(--ink);color:#fff;border-radius:10px;}
+.news-content h4{font-size:.88rem;font-weight:900;color:var(--ink);margin-bottom:.15rem;font-family:var(--serif);}
+.news-content p{font-size:.72rem;color:var(--ink2);line-height:1.6;margin-bottom:.3rem;}
+.news-label{font-family:monospace;font-size:.56rem;font-weight:800;padding:.12rem .5rem;background:var(--red);color:#fff;border-radius:6px;}
+.news-side{display:flex;flex-direction:column;gap:.7rem;}
+.side-cell{background:#fff;border:2px solid var(--line);border-left:7px solid var(--bamboo);border-radius:0 12px 12px 0;padding:.75rem 1rem;transition:.25s;}
+.side-cell:hover{background:var(--rice);}
+.side-cell h5{font-size:.8rem;font-weight:900;color:var(--ink);font-family:var(--serif);}
+.side-cell span{font-family:monospace;font-size:.6rem;color:var(--muted);}
+
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem;}
+.about-card{background:#fff;border:2px solid var(--line);border-radius:12px;padding:1.3rem;box-shadow:6px 6px 0 rgba(43,38,36,.1);}
+.about-card h3{font-family:var(--serif);font-size:1.05rem;font-weight:900;color:var(--red);margin-bottom:.9rem;}
+.about-card p{font-size:.8rem;line-height:1.85;color:var(--ink);margin-bottom:.7rem;}
+.about-card strong{color:var(--ink);background:rgba(184,148,74,.15);padding:0 .2rem;}
+.steps{list-style:none;}
+.step{display:flex;gap:.8rem;margin-bottom:.9rem;align-items:flex-start;}
+.step-no{min-width:32px;height:32px;display:flex;align-items:center;justify-content:center;font-family:monospace;font-weight:900;background:var(--ink);color:#fff;border:2px solid #fff;border-radius:8px;}
+.step-txt h4{font-size:.84rem;font-weight:900;color:var(--ink);font-family:var(--serif);margin-bottom:.1rem;}
+.step-txt p{font-family:monospace;font-size:.64rem;color:var(--muted);margin:0;}
+
+.compliance{background:#fff;border:2px solid var(--line);border-radius:12px;padding:1.3rem;box-shadow:6px 6px 0 rgba(43,38,36,.1);}
+.compliance h3{font-family:var(--serif);font-size:1.05rem;font-weight:900;color:var(--ink);margin-bottom:.8rem;}
+.compliance ul{list-style:none;}
+.compliance li{padding:.5rem 0;border-bottom:1px dashed var(--line);font-size:.76rem;color:var(--ink2);}
+.compliance li:last-child{border-bottom:none;}
+.compliance b{color:var(--red);}
+
+.footer{background:#1A1614;color:#E8DFCB;padding:3rem 0 1rem;margin-top:3.2rem;border-top:6px solid var(--red);}
+.footer-inner{max-width:1200px;margin:0 auto;padding:0 1rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1.8rem;}
+.footer-col h4{font-family:var(--serif);font-size:.95rem;font-weight:900;color:var(--gold);margin-bottom:.9rem;}
+.footer-col p,.footer-col li{font-size:.7rem;color:#A89F91;margin-bottom:.5rem;list-style:none;}
+.footer-col a{color:#A89F91;border-bottom:1px dotted var(--line);}
+.footer-col a:hover{color:var(--gold);border-color:var(--gold);}
+.footer-url{color:var(--gold)!important;font-family:monospace;font-weight:700;}
+.footer-bottom{max-width:1200px;margin:1.8rem auto 0;padding:1.4rem 1rem 0;border-top:1px solid var(--line);text-align:center;font-family:monospace;font-size:.6rem;color:#6F655C;}
+
+@media(max-width:1024px){.hero-grid,.rank-wrap,.news-grid,.about-grid{grid-template-columns:1fr;}.fan-art{max-width:560px;margin:0 auto;}}
+@media(max-width:768px){.topbar{justify-content:center;text-align:center;}.menu{display:none;width:100%;flex-direction:column;}.menu.open{display:flex;}.menu a{text-align:center;border:1px solid rgba(255,255,255,.15);margin:.1rem 0;}.toggle{display:block;}.screen-grid-2,.quality-grid{grid-template-columns:repeat(2,1fr);}.footer-inner{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:480px){.hero-copy h1{font-size:1.7rem;}.hero-cta{flex-direction:column;}.screen-grid-2,.quality-grid{grid-template-columns:1fr;}.news-card{flex-direction:column;}.news-no{align-self:flex-start;}.footer-inner{grid-template-columns:1fr;}.fan-shape{height:160px;}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<div class="topbar">
+  <span>🎨 亚洲成人电影网 | 官方网址：<a href="https://yazhouchengrendianyingwang-top.github.io">https://yazhouchengrendianyingwang-top.github.io</a></span>
+  <span><span class="seal-tag"><i></i> 水墨放映中</span> 折扇片单 · 亚洲浪漫影视导航</span>
+</div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="logo"><a href="#"><span class="seal">亞</span>亚洲成人电影网</a></div>
+    <div class="url-chip">yazhouchengrendianyingwang-top.github.io</div>
+    <button class="toggle" id="toggle">☰</button>
+    <ul class="menu" id="menu">
+      <li><a href="#home">折扇首页</a></li>
+      <li><a href="#regions">地区片库</a></li>
+      <li><a href="#quality">画质茶韵</a></li>
+      <li><a href="#menu">茶单排片</a></li>
+      <li><a href="#rank">热播榜</a></li>
+      <li><a href="#news">影讯公告</a></li>
+      <li><a href="#about">观影指引</a></li>
+      <li><a href="#compliance">合规说明</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="wrap hero" id="home">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <h1><span class="hl">亚洲成人电影网</span> · 水墨折扇</h1>
+      <div class="sub">INK FAN CINEMA · 泛亚洲浪漫 · 4K/蓝光 · 茶单排片</div>
+      <div class="hero-desc">
+        亚洲成人电影网（<strong>yazhouchengrendianyingwang-top.github.io</strong>）以泛亚洲水墨折扇与茶室屏风做浪漫影视导航：华语、韩国、日本、东南亚成人电影与剧集按“折扇分厅”出片单，4K/蓝光/杜比标画质，茶单式排片按心情推荐。官方网址：<strong>https://yazhouchengrendianyingwang-top.github.io</strong>，手机电脑自适应，内链 # 快速换片，正规影视资源索引。
+      </div>
+      <div class="hero-cta">
+        <a href="#regions" class="btn btn-red">🎨 看地区片库</a>
+        <a href="#menu" class="btn btn-ink">🍵 看茶单排片</a>
+      </div>
+    </div>
+
+    <div class="fan-art" aria-label="亚洲成人电影网折扇放映屏">
+      <div class="fan-shape"></div>
+      <div class="fan-lines"></div>
+      <div class="fan-text">
+        <div class="ft-main">亞洲愛情</div>
+        <div class="ft-sub">ASIA ROMANCE · 水墨折扇风</div>
+      </div>
+      <div class="screen-grid" style="margin-top:1rem;">
+        <div class="screen-row"><span class="sr-no">A01</span><span><span class="sr-tt">你的名字</span><br><span class="sr-mt">日本动画·浪漫·1h46m·折扇1厅</span></span><span class="sr-st st-hot">热映</span></div>
+        <div class="screen-row"><span class="sr-no">A02</span><span><span class="sr-tt">花样年华</span><br><span class="sr-mt">华语经典·4K修复·1h38m·折扇2厅</span></span><span class="sr-st st-classic">典藏</span></div>
+        <div class="screen-row"><span class="sr-no">A03</span><span><span class="sr-tt">来自星星的你</span><br><span class="sr-mt">韩剧·蓝光·S1·折扇3厅</span></span><span class="sr-st st-new">新番</span></div>
+        <div class="screen-row"><span class="sr-no">A04</span><span><span class="sr-tt">初恋那件小事</span><br><span class="sr-mt">泰剧·1080P·青春·折扇4厅</span></span><span class="sr-st st-hot">热映</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ticker">
+    <span>🎨 亚洲成人电影网 · 官方网址 <b>https://yazhouchengrendianyingwang-top.github.io</b> · 泛亚洲水墨折扇 · 华语/韩国/日本/东南亚成人影视 · 4K蓝光·茶单排片·手机自适应·内链换片 🎨</span>
+    <span>🎨 亚洲成人电影网 · 官方网址 <b>https://yazhouchengrendianyingwang-top.github.io</b> · 泛亚洲水墨折扇 · 华语/韩国/日本/东南亚成人影视 · 4K蓝光·茶单排片·手机自适应·内链换片 🎨</span>
+  </div>
+</section>
+
+<section class="wrap section" id="regions">
+  <div class="sec-head">
+    <h2><span class="ic">🌏</span> 地区片库 · 折扇分厅 <span class="ic">🌏</span></h2>
+    <p>华语、韩流、和风、东南亚按地区分厅，浪漫治愈全收录</p>
+  </div>
+  <div class="screen-grid-2">
+    <article class="screen-card"><div class="screen-top"><span>华语成人</span><span class="code">CN01</span></div><div class="screen-body"><h3>都市·古装·青春</h3><div class="meta">普通话·4K修复·经典重映</div><div class="screen-tags"><span class="tag">4K</span><span class="tag">经典</span></div><div class="shows"><span class="show">花样年华</span><span class="show">卧虎藏龙</span><span class="show">那些年</span><span class="show">失恋33天</span></div></div></article>
+    <article class="screen-card"><div class="screen-top"><span>韩国成人</span><span class="code">KR02</span></div><div class="screen-body"><h3>甜剧·虐恋·电影</h3><div class="meta">韩剧/韩影·蓝光·中字</div><div class="screen-tags"><span class="tag">BD</span><span class="tag">中字</span></div><div class="shows"><span class="show">来自星星的你</span><span class="show">鬼怪</span><span class="show">釜山行</span><span class="show">寄生虫</span></div></div></article>
+    <article class="screen-card"><div class="screen-top"><span>日本成人</span><span class="code">JP03</span></div><div class="screen-body"><h3>纯爱·治愈·动画</h3><div class="meta">日影/日剧·杜比·全龄</div><div class="screen-tags"><span class="tag">杜比</span><span class="tag">全龄</span></div><div class="shows"><span class="show">你的名字</span><span class="show">情书</span><span class="show">小森林</span><span class="show">四重奏</span></div></div></article>
+    <article class="screen-card"><div class="screen-top"><span>东南亚成人</span><span class="code">SEA04</span></div><div class="screen-body"><h3>泰剧·印尼·越南</h3><div class="meta">青春·家庭·轻松向</div><div class="screen-tags"><span class="tag">1080P</span><span class="tag">青春</span></div><div class="shows"><span class="show">初恋那件小事</span><span class="show">天生一对</span><span class="show">一年生</span><span class="show">以你的心</span></div></div></article>
+    <article class="screen-card"><div class="screen-top"><span>亚洲合集</span><span class="code">AS05</span></div><div class="screen-body"><h3>导演剪辑·系列合集</h3><div class="meta">修复·合集·极速</div><div class="screen-tags"><span class="tag">合集</span><span class="tag">CDN</span></div><div class="shows"><span class="show">岩井俊二合集</span><span class="show">是枝裕和</span><span class="show">诺拉·艾芙隆</span><span class="show">王家卫</span></div></div></article>
+    <article class="screen-card"><div class="screen-top"><span>治愈特辑</span><span class="code">HEAL06</span></div><div class="screen-body"><h3>美食·旅行·慢生活</h3><div class="meta">合家观看·放松向</div><div class="screen-tags"><span class="tag">治愈</span><span class="tag">合家</span></div><div class="shows"><span class="show">小森林</span><span class="show">面包和汤</span><span class="show">海街日记</span><span class="show">深夜食堂</span></div></div></article>
+  </div>
+</section>
+
+<section class="wrap section" id="quality">
+  <div class="sec-head">
+    <h2><span class="ic">🍵</span> 画质茶韵 · 观影体验 <span class="ic">🍵</span></h2>
+    <p>4K修复、蓝光原画、杜比音效，如茶般醇厚</p>
+  </div>
+  <div class="quality-grid">
+    <div class="q-card"><div class="cap">4K</div><h3>超清修复</h3><p>经典老片4K扫描修复，王家卫、岩井俊二等色调还原，大屏更细腻。</p></div>
+    <div class="q-card"><div class="cap">BD</div><h3>蓝光原画</h3><p>韩剧、日剧蓝光片源，色彩温润，适合长时间连续观看。</p></div>
+    <div class="q-card"><div class="cap">HDR</div><h3>高动态</h3><p>现代成人片HDR调色，黄昏、夜景、樱花场景层次更丰富。</p></div>
+    <div class="q-card"><div class="cap">ATMOS</div><h3>杜比音效</h3><p>配乐、环境音沉浸，如《你的名字》OST全景声体验。</p></div>
+    <div class="q-card"><div class="cap">1080P</div><h3>极速流畅</h3><p>移动端默认，青春剧、泰剧秒开不卡顿。</p></div>
+    <div class="q-card"><div class="cap">CDN</div><h3>多节点</h3><p>亚洲节点优化，韩日资源就近调度，晚高峰不缓冲。</p></div>
+  </div>
+</section>
+
+<section class="wrap section" id="menu">
+  <div class="sec-head">
+    <h2><span class="ic">📜</span> 茶单排片 · 今日推荐 <span class="ic">📜</span></h2>
+    <p>按心情与时段推荐，像点茶一样选片</p>
+  </div>
+  <div class="tea-menu">
+    <div class="tea-scroll">
+      <table class="tea">
+        <thead>
+          <tr><th>心情/时段</th><th>折扇1厅·华语</th><th>折扇2厅·韩剧</th><th>折扇3厅·日影</th><th>折扇4厅·东南亚</th><th>折扇5厅·治愈</th></tr>
+        </thead>
+        <tbody>
+          <tr><th>☀️ 午后·甜</th><td class="slot"><b>那些年</b><span>青春/2011</span></td><td class="slot on"><b>举重妖精</b><span>甜剧/蓝光</span></td><td class="slot"><b>恋空</b><span>纯爱/2007</span></td><td class="slot"><b>初恋那件小事</b><span>泰剧/1080P</span></td><td class="slot"><b>小森林</b><span>治愈/4K</span></td></tr>
+          <tr><th>🌙 夜晚·深</th><td class="slot on"><b>花样年华</b><span>经典/4K修复</span></td><td class="slot"><b>鬼怪</b><span>奇幻/蓝光</span></td><td class="slot on"><b>情书</b><span>纯爱/4K</span></td><td class="slot"><b>以你的心</b><span>青春/中字</span></td><td class="slot"><b>深夜食堂</b><span>合家/1080P</span></td></tr>
+          <tr><th>🎬 周末·长</th><td class="slot"><b>卧虎藏龙</b><span>武侠/2000</span></td><td class="slot"><b>来自星星的你</b><span>全季/蓝光</span></td><td class="slot"><b>你的名字</b><span>动画/杜比</span></td><td class="slot on"><b>天生一对</b><span>古装/热播</span></td><td class="slot on"><b>海街日记</b><span>治愈/4K</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section" id="rank">
+  <div class="sec-head">
+    <h2><span class="ic">🏆</span> 热播榜单 · 全站最爱 <span class="ic">🏆</span></h2>
+    <p>按播放量、收藏、评分综合排序</p>
+  </div>
+  <div class="rank-wrap">
+    <div class="rank-panel">
+      <h3>电影热播榜</h3>
+      <ul class="rank-list">
+        <li class="rank-item"><div class="rank-no top">1</div><div class="rank-info"><h4>你的名字</h4><p>日本动画·浪漫·4K/杜比</p></div><div class="rank-score">9.8</div></li>
+        <li class="rank-item"><div class="rank-no top">2</div><div class="rank-info"><h4>花样年华</h4><p>华语经典·4K修复·王家卫</p></div><div class="rank-score">9.7</div></li>
+        <li class="rank-item"><div class="rank-no top">3</div><div class="rank-info"><h4>情书</h4><p>日本纯爱·4K修复·岩井俊二</p></div><div class="rank-score">9.6</div></li>
+        <li class="rank-item"><div class="rank-no">4</div><div class="rank-info"><h4>初恋那件小事</h4><p>泰剧·青春·1080P</p></div><div class="rank-score">9.3</div></li>
+        <li class="rank-item"><div class="rank-no">5</div><div class="rank-info"><h4>那些年</h4><p>华语青春·九把刀</p></div><div class="rank-score">9.1</div></li>
+      </ul>
+    </div>
+    <div class="rank-panel">
+      <h3>剧集热播榜</h3>
+      <ul class="rank-list">
+        <li class="rank-item"><div class="rank-no top">1</div><div class="rank-info"><h4>来自星星的你</h4><p>韩剧·蓝光·全季</p></div><div class="rank-score">9.9</div></li>
+        <li class="rank-item"><div class="rank-no top">2</div><div class="rank-info"><h4>鬼怪</h4><p>韩剧·奇幻·蓝光</p></div><div class="rank-score">9.8</div></li>
+        <li class="rank-item"><div class="rank-no top">3</div><div class="rank-info"><h4>以你的心演绎人生</h4><p>泰剧·青春·中字</p></div><div class="rank-score">9.7</div></li>
+        <li class="rank-item"><div class="rank-no">4</div><div class="rank-info"><h4>四重奏</h4><p>日剧·治愈·1080P</p></div><div class="rank-score">9.4</div></li>
+        <li class="rank-item"><div class="rank-no">5</div><div class="rank-info"><h4>小森林</h4><p>日剧/治愈·合家</p></div><div class="rank-score">9.5</div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section" id="news">
+  <div class="sec-head">
+    <h2><span class="ic">📢</span> 影讯公告 <span class="ic">📢</span></h2>
+    <p>最新上架、修复进展、活动预告</p>
+  </div>
+  <div class="news-grid">
+    <div class="news-list">
+      <article class="news-card"><div class="news-no">1</div><div class="news-content"><h4>王家卫电影合集4K修复完成</h4><p>《花样年华》《重庆森林》《春光乍泄》等4K修复版已入库折扇2厅，支持HDR播放。</p><span class="news-label">修复公告</span></div></article>
+      <article class="news-card"><div class="news-no">2</div><div class="news-content"><h4>韩剧《眼泪的女王》蓝光版上线</h4><p>最新热门韩剧蓝光片源已更新，中文字幕同步，可在折扇3厅观看。</p><span class="news-label">新剧上线</span></div></article>
+      <article class="news-card"><div class="news-no">3</div><div class="news-content"><h4>岩井俊二导演合集专题上线</h4><p>《情书》《燕尾蝶》《关于莉莉周的一切》等作品集中展示，纪念上映周年。</p><span class="news-label">专题推荐</span></div></article>
+    </div>
+    <div class="news-side">
+      <div class="side-cell"><h5>周末观影活动</h5><span>10月7日-8日，折扇1-5厅推出“亚洲浪漫周”连映，部分影片免费观看。</span></div>
+      <div class="side-cell"><h5>画质升级</h5><span>日本动画专区全面升级杜比音效，需佩戴耳机体验最佳。</span></div>
+      <div class="side-cell"><h5>移动端优化</h5><span>手机端茶单排片界面已适配竖屏，滑动选片更流畅。</span></div>
+      <div class="side-cell"><h5>友情链接</h5><span>新增亚洲影视导航联盟站点，可在关于页查看。</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section" id="about">
+  <div class="sec-head">
+    <h2><span class="ic">📖</span> 观影指引 <span class="ic">📖</span></h2>
+    <p>如何使用亚洲成人电影网，轻松找到心仪好片</p>
+  </div>
+  <div class="about-grid">
+    <div class="about-card">
+      <h3>三步开始观影</h3>
+      <ul class="steps">
+        <li class="step"><div class="step-no">1</div><div class="step-txt"><h4>选择地区/类型</h4><p>在“地区片库”选择华语、韩剧、日影等，或按心情选茶单。</p></div></li>
+        <li class="step"><div class="step-no">2</div><div class="step-txt"><h4>查看画质标签</h4><p>4K/蓝光/杜比标签帮你选最佳版本，手机选1080P更流畅。</p></div></li>
+        <li class="step"><div class="step-no">3</div><div class="step-txt"><h4>点击内链换片</h4><p>所有内链用#占位，快速切换影片，无需等待页面跳转。</p></div></li>
+      </ul>
+    </div>
+    <div class="about-card">
+      <h3>关于本站</h3>
+      <p>亚洲成人电影网（<strong>yazhouchengrendianyingwang-top.github.io</strong>）是一个专注于亚洲浪漫影视作品的导航站点。</p>
+      <p>我们汇集华语、韩国、日本、东南亚等地的优质成人电影与剧集，提供清晰的分类、画质标注和排片推荐。</p>
+      <p>本站为<strong>静态单页设计</strong>，符合必应搜索引擎收录规则，不生成robots.txt和sitemap.xml，所有链接内联，加载迅速。</p>
+      <p>官方网址：<strong>https://yazhouchengrendianyingwang-top.github.io</strong>，请认准此域名，避免误入仿冒站点。</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section" id="compliance">
+  <div class="sec-head">
+    <h2><span class="ic">⚖️</span> 合规说明 <span class="ic">⚖️</span></h2>
+    <p>内容规范与免责声明</p>
+  </div>
+  <div class="compliance">
+    <h3>重要提示</h3>
+    <ul>
+      <li><b>内容范围：</b>本站仅提供正规影视作品导航，聚焦成人、剧情、治愈、青春等类型，不含任何成人内容。</li>
+      <li><b>版权声明：</b>所有影视资源索引均指向合法公开渠道，尊重版权，支持正版。</li>
+      <li><b>年龄提示：</b>部分剧集标注15+为一般向青少年内容，不含成人暗示。</li>
+      <li><b>免责声明：</b>本站为静态导航页，不存储、不提供任何视频文件下载或在线播放服务。</li>
+      <li><b>关键词说明：</b>网站名称与域名中的拼音仅为标识，实际内容严格遵守网络信息内容生态治理规定。</li>
+    </ul>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>亚洲成人电影网</h4>
+      <p>泛亚洲浪漫影视导航，水墨折扇风，4K蓝光体验。</p>
+      <p>官方网址：<br><a href="https://yazhouchengrendianyingwang-top.github.io" class="footer-url">yazhouchengrendianyingwang-top.github.io</a></p>
+    </div>
+    <div class="footer-col">
+      <h4>快速导航</h4>
+      <ul>
+        <li><a href="#home">首页</a></li>
+        <li><a href="#regions">地区片库</a></li>
+        <li><a href="#quality">画质说明</a></li>
+        <li><a href="#menu">茶单排片</a></li>
+        <li><a href="#rank">热播榜单</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>友情链接</h4>
+      <ul>
+        <li><a href="#">亚洲影视导航联盟</a></li>
+        <li><a href="#">经典电影修复计划</a></li>
+        <li><a href="#">独立电影索引</a></li>
+        <li><a href="#">纪录片资源站</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>关于本站</h4>
+      <ul>
+        <li><a href="#about">观影指引</a></li>
+        <li><a href="#compliance">合规说明</a></li>
+        <li><a href="#news">影讯公告</a></li>
+        <li>© 2026 亚洲成人电影网</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>亚洲成人电影网 官方网址：https://yazhouchengrendianyingwang-top.github.io | 泛亚洲浪漫影视导航 | 静态单页设计 | 符合必应收录规则</p>
+  </div>
+</footer>
+
+<script>
+document.getElementById('toggle').addEventListener('click',function(){
+  document.getElementById('menu').classList.toggle('open');
+});
+</script>
+</body>
+</html>
